@@ -121,28 +121,92 @@ blinkit-sales-analysis-python-sql-powerbi/
 - **Total Sales:** **$1,201,681**  
 - **Average Sales:** **$141**  
 - **Number of Items Sold:** **8,523**  
-- **Average Rating:** **4.0**  
+- **Average Rating:** **3.9**
+
+---
+
+## 📊 Insights From EDA Visualizations  
+
+Additional insights were derived from the charts created during the EDA phase. These visuals helped in understanding product performance, outlet distribution, and sales behavior across categories.
+
+### 🥛 **1. Sales by Fat Content**
+The pie chart shows how sales are distributed between Low Fat and Regular products.
+
+- **Low Fat:** **65%** of total sales  
+- **Regular:** **35%** of total sales  
+
+This indicates that Low Fat products contribute nearly **twice as much** to total sales compared to Regular items.
+
+---
+
+### 🍽 **2. Top 5 Item Types by Total Sales**
+From the bar chart, the top-performing product categories based on total sales are:
+
+1. **Fruits & Vegetables — $178,124**  
+2. **Snack Foods — $175,434**  
+3. **Household — $135,977**  
+4. **Frozen Foods — $118,559**  
+5. **Dairy — $101,276**  
+
+These categories make up a large portion of overall sales, with *Fruits & Vegetables* being the highest contributor.
+
+---
+
+### 🏬 **3. Sales by Outlet Size**
+The outlet size distribution reveals the contribution of each outlet category to total sales:
+
+- **Medium:** **42.3%**  
+- **Small:** **37.0%**  
+- **High:** **20.7%**  
+
+Medium-sized outlets generate the highest share of sales, followed by small outlets, while high-sized outlets contribute the least.
+
+---
 
 ### Additional Observations  
-- Low Fat and Regular items show clear sales differences across outlets  
-- Some item types show significantly higher demand  
-- Larger outlets contribute a **higher percentage of total sales**  
-- Tier 3 locations generate **stronger sales** compared to others  
-- Newer outlets display more consistent performance in certain categories  
-- Ratings remain stable across product segments with minor variations  
+- Low Fat and Regular items show a clear difference in their sales share, with Low Fat products contributing a larger portion of total sales.  
+- Item types vary widely in their demand, with a few categories generating much higher sales than others.  
+- Medium and Small outlets contribute most of the total sales, while High-sized outlets account for a smaller share.  
+- Sales distribution across outlet locations shows noticeable differences, with some locations generating more sales than others.  
+- Outlets established in different years show variations in performance, with some newer outlets displaying steadier sales levels.  
+- Ratings remain generally consistent across products, with only minor differences between categories. 
 
 ---
 
 ## <a id="sql-insights"></a>🧠 Insights From SQL Analysis  
 
-- Identified **underperforming outlets** within the same location tier  
-- Found the **top 20% items** contributing to the majority of total sales  
-- Detected **high-rated items with low sales**, showing missed opportunities  
-- Compared **sales efficiency** of new vs old outlets  
-- Identified **top fluctuating product categories** impacting inventory planning  
-- Analyzed sales behavior across outlet sizes, types, and establishment years  
+The SQL analysis provided a deeper understanding of outlet performance, product behavior, and sales patterns across the business. The key insights are:
+
+### 1. Underperforming Outlets Within the Same Location Tier  
+By comparing outlets inside each location tier, we identified stores that generate much lower sales than other outlets in the same tier. This shows that the issue is not the location itself but differences in outlet performance.
 
 ---
+
+### 2. Top 20% Items Driving Most of the Total Sales  
+A small group of items contributes to a large portion of overall revenue. These high-performing items are critical for maintaining sales volume and need consistent availability and stock management.
+
+---
+
+### 3. High-Rated Items With Low Sales  
+Several products have strong customer ratings but low sales numbers. These items show potential but may lack visibility or placement, which limits their overall performance.
+
+---
+
+### 4. Sales Efficiency of New vs Old Outlets  
+Newer outlets and older outlets show differences in their ability to generate sales. This comparison helps highlight which outlets operate efficiently and which need support, based on how long they have been running.
+
+---
+
+### 5. Item Categories With High Sales Fluctuations  
+Some product categories show large changes in sales over time. These unstable sales patterns make inventory planning difficult and require closer monitoring to prevent overstocking or stock shortages.
+
+---
+
+### 6. Sales Patterns Across Outlet Size, Type, and Establishment Year  
+The analysis also highlighted how sales differ based on outlet size, outlet type, and the year the outlet was established. These differences help in understanding what kind of stores perform better and what factors may influence their sales levels.
+
+---
+
 
 ## <a id="dashboard"></a>📈 Dashboard (Power BI)
 
