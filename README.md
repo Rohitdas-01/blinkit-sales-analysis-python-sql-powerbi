@@ -230,7 +230,7 @@ The Power BI dashboard presents:
 ```bash
 git clone https://github.com/Rohitdas-01/blinkit-sales-analysis-python-sql-powerbi.git
 ```
-### **Step 2 - Run Exploratory Data Analysis (Python)
+### Step 2 - Run Exploratory Data Analysis (Python)
 
 Open Jupyter Notebook
 
