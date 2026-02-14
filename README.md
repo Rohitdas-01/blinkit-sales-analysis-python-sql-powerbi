@@ -226,7 +226,7 @@ The Power BI dashboard presents:
 
 ## <a id="how-to-run-this-project"></a>▶️ How to Run This Project  
 
-### Step 1 - Clone the Repository**
+### Step 1 - Clone the Repository
 ```bash
 git clone https://github.com/Rohitdas-01/blinkit-sales-analysis-python-sql-powerbi.git
 ```
